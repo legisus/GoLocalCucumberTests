@@ -73,7 +73,7 @@ public class DefinitionSteps {
         userPage.clickOnRegistrationButton();
     }
 
-    @And("Check the massage")
+    @And("Check the massage is displayed")
     public void checkTheMassage() {
         userPage.pageLoadWait(DEFAULT_TIMEOUT);
         userPage.waitVisibilityOfElement(DEFAULT_TIMEOUT, userPage.getMessage());
