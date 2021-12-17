@@ -7,7 +7,7 @@ Feature:
     When User click on User button
     When User fill in all registration fields valid data
     Then User click on button registration
-    And Check the massage
+    And Check the massage is displayed
 
 
 
